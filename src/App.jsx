@@ -17,41 +17,41 @@ const App = () => {
         </div>
       </div>
 
-      <div>
-        <h2>Your AI-Powered Research Partner</h2>
-        <div className='flex flex-col'>
-          <div>
-            <div>
+      <div className='flex flex-col p-4 justify-center'>
+        <h2 className='text-center text-3xl'>Your AI-Powered Research Partner</h2>
+        <div className='flex flex-col gap-8 p-4'>
+          <div className='flex flex-col gap-2' >
+            <div className='flex flex-col gap-2'>
               <img src="#" alt="icon" />
-              <h3>Upload your sources</h3>
-              <p>Upload PDFs, websites, YouTube videos, audio files, Google Docs, Google Slides and more, and NotebookLM will summarize them and make interesting connections between topics, all powered by the latest version of Gemini’s multimodal understanding capabilities.</p>
+              <h3 className='text-lg'>Upload your sources</h3>
+              <p className='text-sm text-gray-700'>Upload PDFs, websites, YouTube videos, audio files, Google Docs, Google Slides and more, and NotebookLM will summarize them and make interesting connections between topics, all powered by the latest version of Gemini’s multimodal understanding capabilities.</p>
             </div>
             <img src="#" alt="" />
           </div>
 
-          <div>
-            <div>
+          <div className='flex flex-col gap-2'>
+            <div className='flex flex-col gap-2'>
               <img src="#" alt="icon" />
-              <h3>Instant insights</h3>
-              <p>With all of your sources in place, NotebookLM gets to work and becomes a personalized AI expert in the information that matters most to you.</p>
+              <h3 className='text-lg'>Instant insights</h3>
+              <p className='text-sm text-gray-700'>With all of your sources in place, NotebookLM gets to work and becomes a personalized AI expert in the information that matters most to you.</p>
             </div>
             <img src="#" alt="" />
           </div>
 
-          <div>
-            <div>
+          <div className='flex flex-col gap-2'>
+            <div className='flex flex-col gap-2'>
               <img src="#" alt="icon" />
-              <h3>See the source, not just the answer</h3>
-              <p>Gain confidence in every response because NotebookLM provides clear citations for its work, showing you the exact quotes from your sources.</p>
+              <h3 className='text-lg'>See the source, not just the answer</h3>
+              <p className='text-sm text-gray-700'>Gain confidence in every response because NotebookLM provides clear citations for its work, showing you the exact quotes from your sources.</p>
             </div>
             <img src="#" alt="" />
           </div>
 
-          <div>
-            <div>
+          <div className='flex flex-col gap-2'>
+            <div className='flex flex-col gap-2'>
               <img src="#" alt="icon" />
-              <h3>Listen and learn on the go</h3>
-              <p>Our new Audio Overview feature can turn your sources into engaging “Deep Dive” discussions with one click</p>
+              <h3 className='text-lg'>Listen and learn on the go</h3>
+              <p className='text-sm text-gray-700'>Our new Audio Overview feature can turn your sources into engaging “Deep Dive” discussions with one click</p>
             </div>
             <img src="#" alt="" />
           </div>
