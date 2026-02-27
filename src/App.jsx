@@ -1,9 +1,54 @@
 // src/App.jsx
-import React from 'react';
+// import React from 'react';
+import React, { useState, useRef } from 'react';
 
 const App = () => {
-  return (
+  const data = [
+    {
+      question:
+        "What makes NotebookLM different from other AI-powered note-taking apps?",
+      answer:
+        "As a research assistant, NotebookLM's advantage is being source-grounded. This helps deliver more accurate answers and insights based on your actual material — reducing the likelihood of AI errors and hallucinations.",
+    },
+    {
+      question: "Is my data private?",
+      answer: "Yes. Your data stays secure and private.",
+    },
+    {
+      question: "Can I use it offline?",
+      answer: "Currently, it requires an internet connection.",
+    },
+  ];
 
+  function AccordionItem({ question, answer }) {
+    const [isOpen, setIsOpen] = useState(false);
+    const contentRef = useRef(null);
+  
+    return (
+      <div className="border-b">
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="text-blue-700 cursor-pointer p-8 w-full text-left text-base"
+        >
+          {question}
+        </button>
+  
+        <div
+          ref={contentRef}
+          className="px-4 overflow-hidden transition-all duration-300"
+          style={{
+            maxHeight: isOpen
+              ? contentRef.current?.scrollHeight + "px"
+              : "0px",
+          }}
+        >
+          <p className="pb-4">{answer}</p>
+        </div>
+      </div>
+    );
+  }
+
+return(
 
     <div>
       <div className='flex justify-center flex-col p-4 items-center'>
@@ -108,13 +153,23 @@ const App = () => {
       <div>
         <h3>Want to learn more?</h3>
         <p>Here are some answers to common questions.</p>
-        <div></div>
-        <button className='text-blue-700 cursor-pointer p-8 w-full rounded-none text-left outline-0 outline-offset-0 text-base'>What makes NotebookLM different from other AI-powered note-taking apps?</button>
+        <div className="flex flex-col">
+        {data.map((item, index) => (
+            <AccordionItem
+              key={index}
+              question={item.question}
+              answer={item.answer}
+            />
+          ))}
+        </div>
+        {/* <div></div> */}
+        {/* <button className='text-blue-700 cursor-pointer p-8 w-full rounded-none text-left outline-0 outline-offset-0 text-base'>What makes NotebookLM different from other AI-powered note-taking apps?</button>
         <div className='p-0 px-4 max-h-0 overflow-hidden'>
           <p>As a research assistant, NotebookLM's advantage is being source-grounded. This helps deliver more accurate answers and insights based on your actual material — reducing the likelihood of AI errors and hallucinations.</p>
-        </div>
+        </div> */}
 
       </div>
+    
 
       <footer className='flex p-4'>
         <div className='flex flex-row gap-8 py-8 pb-8 justify-center items-center'>
