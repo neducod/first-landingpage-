@@ -11,8 +11,28 @@ const App = () => {
         "As a research assistant, NotebookLM's advantage is being source-grounded. This helps deliver more accurate answers and insights based on your actual material — reducing the likelihood of AI errors and hallucinations.",
     },
     {
-      question: "Is my data private?",
-      answer: "Yes. Your data stays secure and private.",
+      question: "How will the integration with Gemini AI improve NotebookLM?",
+      answer: "Built with the latest Gemini model, NotebookLM gains a more nuanced understanding of your sources. This delivers more insightful summaries, helps identify deeper connections across documents, and provides more accurate answers to your questions.",
+    },
+    {
+      question: "Can I use it offline?",
+      answer: "Currently, it requires an internet connection.",
+    },
+    {
+      question: "Can I use it offline?",
+      answer: "Currently, it requires an internet connection.",
+    },
+    {
+      question: "Can I use it offline?",
+      answer: "Currently, it requires an internet connection.",
+    },
+    {
+      question: "Can I use it offline?",
+      answer: "Currently, it requires an internet connection.",
+    },
+    {
+      question: "Can I use it offline?",
+      answer: "Currently, it requires an internet connection.",
     },
     {
       question: "Can I use it offline?",
