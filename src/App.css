@@ -6,6 +6,19 @@ h1 {
   background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
+
+
+
+  background-image: -webkit-radial-gradient(20% 150%, ellipse, rgba(196, 202, 248, .4) 0, rgba(113, 130, 255, .2) 30%, rgba(113, 130, 255, 0) 60%), -webkit-radial-gradient(70% 130%, ellipse, rgba(60, 249, 93, .4) 0, rgba(60, 255, 82, .2) 30%, rgba(60, 255, 82, 0) 60%);
+        background-image: radial-gradient(ellipse at 20% 150%, rgba(196, 202, 248, .4) 0, rgba(113, 130, 255, .2) 30%, rgba(113, 130, 255, 0) 60%), radial-gradient(ellipse at 70% 130%, rgba(60, 249, 93, .4) 0, rgba(60, 255, 82, .2) 30%, rgba(60, 255, 82, 0) 60%);
+        background-color: #fff
+}
+#test{
+  background-image: -webkit-radial-gradient(20% 150%, ellipse, rgba(196, 202, 248, .4) 0, rgba(113, 130, 255, .2) 30%, rgba(113, 130, 255, 0) 60%), -webkit-radial-gradient(70% 130%, ellipse, rgba(60, 249, 93, .4) 0, rgba(60, 255, 82, .2) 30%, rgba(60, 255, 82, 0) 60%);
+  background-image: radial-gradient(ellipse at 20% 150%, rgba(196, 202, 248, .4) 0, rgba(113, 130, 255, .2) 30%, rgba(113, 130, 255, 0) 60%), radial-gradient(ellipse at 70% 130%, rgba(60, 249, 93, .4) 0, rgba(60, 255, 82, .2) 30%, rgba(60, 255, 82, 0) 60%);
+  background-color: #fff;
+  height: 400px;
 }
 /*
 #root {
