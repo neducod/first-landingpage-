@@ -105,6 +105,14 @@ const App = () => {
         <p className='text-center text-gray-700'>As an organization or school, your data will stay private to you. As an individual, your data is not used for training unless you share feedback, see more details <a href="#" className='text-blue-700 underline'>here.</a> </p>
       </div>
 
+      <div>
+        <h3>Want to learn more?</h3>
+        <p>Here are some answers to common questions.</p>
+        <div>
+          
+        </div>
+      </div>
+
       <footer className='flex p-4'>
         <div className='flex flex-row gap-8 py-8 pb-8 justify-center items-center'>
           <h6 className='text-lg font-normal'>Google</h6>
