@@ -56,7 +56,7 @@ const App = () => {
       <div className="border-b">
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="text-blue-700 cursor-pointer p-8 w-full text-left text-base"
+          className="text-blue-700 cursor-pointer p-6 w-full text-left text-base"
         >
           {question}
         </button>
@@ -70,7 +70,7 @@ const App = () => {
               : "0px",
           }}
         >
-          <p className="pb-4">{answer}</p>
+          <p className="pb-4 text-gray-600 text-xs">{answer}</p>
         </div>
       </div>
     );
@@ -178,7 +178,7 @@ return(
         <p className='text-center text-gray-700'>As an organization or school, your data will stay private to you. As an individual, your data is not used for training unless you share feedback, see more details <a href="#" className='text-blue-700 underline'>here.</a> </p>
       </div>
 
-      <div className='p-8 flex flex-col justify-center'>
+      <div className='p-6 flex flex-col justify-center'>
         <div className='flex gap-4 flex-col'>
           <h3 className='text-3xl font-light text-left'>Want to learn more?</h3>
           <p className='text-left text-sm text-gray-500'>Here are some answers to common questions.</p>
