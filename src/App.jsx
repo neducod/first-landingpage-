@@ -1,7 +1,8 @@
 // src/App.jsx
 // import React from 'react';
 import React, { useState, useRef } from 'react';
-import firstImage from './assets/privacy.png'
+import firstImage from './assets/privacy.png';
+// import secondImage from '/assets/video_placeholder_1.jpg';
 
 const App = () => {
   const data = [
@@ -104,7 +105,7 @@ return(
               <source src={Aboutvideo} type="video/mp4" />
               Your browser does not support the video tag.
             </video> */}
-            <img src="/image.png" alt="landingpage-image" />
+            {/* <img src={secondImage} alt="landingpage-image" /> */}
           </div>
 
           <div className='flex flex-col gap-2'>
