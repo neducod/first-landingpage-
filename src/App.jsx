@@ -150,9 +150,11 @@ return(
         <p className='text-center text-gray-700'>As an organization or school, your data will stay private to you. As an individual, your data is not used for training unless you share feedback, see more details <a href="#" className='text-blue-700 underline'>here.</a> </p>
       </div>
 
-      <div>
-        <h3>Want to learn more?</h3>
-        <p>Here are some answers to common questions.</p>
+      <div className='p-8 flex flex-col justify-center'>
+        <div className='flex gap-4 flex-col'>
+          <h3 className='text-3xl font-light text-left'>Want to learn more?</h3>
+          <p className='text-left text-sm text-gray-500'>Here are some answers to common questions.</p>
+        </div>
         <div className="flex flex-col">
         {data.map((item, index) => (
             <AccordionItem
@@ -162,7 +164,6 @@ return(
             />
           ))}
         </div>
-        {/* <div></div> */}
         {/* <button className='text-blue-700 cursor-pointer p-8 w-full rounded-none text-left outline-0 outline-offset-0 text-base'>What makes NotebookLM different from other AI-powered note-taking apps?</button>
         <div className='p-0 px-4 max-h-0 overflow-hidden'>
           <p>As a research assistant, NotebookLM's advantage is being source-grounded. This helps deliver more accurate answers and insights based on your actual material — reducing the likelihood of AI errors and hallucinations.</p>
