@@ -15,28 +15,36 @@ const App = () => {
       answer: "Built with the latest Gemini model, NotebookLM gains a more nuanced understanding of your sources. This delivers more insightful summaries, helps identify deeper connections across documents, and provides more accurate answers to your questions.",
     },
     {
-      question: "Can I use it offline?",
-      answer: "Currently, it requires an internet connection.",
+      question: "What are the main advantages of NotebookLM compared to other AI learning apps?",
+      answer: "",
     },
     {
-      question: "Can I use it offline?",
-      answer: "Currently, it requires an internet connection.",
+      question: "Can I use NotebookLM for creative projects like making a podcast?",
+      answer: "Yes, NotebookLM can create a podcast-style Audio Overview of your materials. NotebookLM is a great tool for creative projects. It helps you organize research, summarize sources, and then brainstorm, draft, and refine your script with AI suggestions.",
     },
     {
-      question: "Can I use it offline?",
-      answer: "Currently, it requires an internet connection.",
+      question: "What are the most effective ways to integrate NotebookLM into a daily productivity workflow?",
+      answer: "",
     },
     {
-      question: "Can I use it offline?",
-      answer: "Currently, it requires an internet connection.",
+      question: "Is my data privacy at risk with NotebookLM?",
+      answer: "NotebookLM is built with robust security measures. Google does not access or use your content in NotebookLM for generative AI foundational model training unless you share feedback, see more details here.",
     },
     {
-      question: "Can I use it offline?",
-      answer: "Currently, it requires an internet connection.",
+      question: "Who has access to the notes and data I store in NotebookLM?",
+      answer: "NotebookLM does not share your data with third parties. Learn how NotebookLM protects your data.",
     },
     {
-      question: "Can I use it offline?",
-      answer: "Currently, it requires an internet connection.",
+      question: "What is Google's policy on data retention for my deleted notebooks in NotebookLM?",
+      answer: "There is currently no recovery option for deleted notes",
+    },
+    {
+      question: "How do I report a result in NotebookLM that I believe creates a safety concern or is inappropriate?",
+      answer: "",
+    },
+    {
+      question: "If I find a bug or have a feature idea, how can I submit my feedback?",
+      answer: "Please share your questions and support requests on Discord or follow instructions on NotebookLM help center to report a problem.",
     },
   ];
 
