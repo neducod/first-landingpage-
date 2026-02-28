@@ -82,7 +82,7 @@ return(
 
     <div>
       <div className='flex justify-center flex-col p-4 items-center'>
-        <h1 className='text-5xl text-center'>Understand <span className='text-6xl font-manrope font-black leading-snug text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-pink-600 to-purple-600'>Anything</span> </h1>
+        <h1 className='text-5xl text-center'>Understand <span className='text-5xl font-manrope font-black leading-snug text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-pink-600 to-purple-600'>Anything</span> </h1>
         <div className='flex justify-center items-center text-center w-full p-4'>
           <p className='text-gray-500 font-light'>Your research and thinking partner, grounded in the information you trust, built with the latest Gemini models.</p>
         </div>
