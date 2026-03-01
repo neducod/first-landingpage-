@@ -199,13 +199,7 @@ return(
         <div className='p-0 px-4 max-h-0 overflow-hidden'>
           <p>As a research assistant, NotebookLM's advantage is being source-grounded. This helps deliver more accurate answers and insights based on your actual material — reducing the likelihood of AI errors and hallucinations.</p>
         </div> */}
-        <div id='test'></div>
-        <div class="w-96 h-48 rounded-md bg-gradient-to-tr from-indigo-600  to-purple-500 p-0.5">
-          <div class="w-full h-full rounded-md  flex items-center justify-center">
-          </div>
-        </div>
-
-
+        {/* <div class="w-96 h-48 rounded-md bg-gradient-to-tr from-indigo-600  to-purple-500 p-0.5"></div> */}
       </div>
     
 
