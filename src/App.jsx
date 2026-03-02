@@ -3,6 +3,7 @@
 import React, { useState, useRef } from 'react';
 import firstImage from './assets/privacy.png';
 // import secondImage from '/assets/video_placeholder_1.jpg';
+import { FaReact, FaSass } from 'react-icons/fa';
 
 const App = () => {
   const data = [
@@ -98,6 +99,7 @@ return(
           <div className='flex flex-col gap-2' >
             <div className='flex flex-col gap-2'>
               <img src="#" alt="icon" />
+              <FaReact />
               <h3 className='text-lg'>Upload your sources</h3>
               <p className='text-sm text-gray-700'>Upload PDFs, websites, YouTube videos, audio files, Google Docs, Google Slides and more, and NotebookLM will summarize them and make interesting connections between topics, all powered by the latest version of Gemini’s multimodal understanding capabilities.</p>
             </div>
