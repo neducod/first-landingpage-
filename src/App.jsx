@@ -1,10 +1,9 @@
-// src/App.jsx
 // import React from 'react';
 import React, { useState, useRef } from 'react';
 import firstImage from './assets/privacy.png';
-// import secondImage from '/assets/video_placeholder_1.jpg';
 import { FaReact, FaSass } from 'react-icons/fa';
 
+import FirstVideo from './assets/video_placeholder_1.jpg'  
 import InstantImage from './assets/video_placeholder_2_replacement.png'
 
 import Navimage from './assets/notebook-logo.svg'
@@ -120,12 +119,13 @@ return(
       <div className='flex flex-col p-4 justify-center'>
         <h2 className='text-center text-3xl'>Your AI-Powered Research Partner</h2>
         <div className='flex flex-col gap-8 p-4'>
-          <div className='flex flex-col gap-2' >
-            <div className='flex flex-col gap-2'>
+          <div className='flex flex-col gap-8' >
+            <div className='flex flex-col gap-8'>
               <FiUser />
               <h3 className='text-lg'>Upload your sources</h3>
               <p className='text-sm text-gray-700'>Upload PDFs, websites, YouTube videos, audio files, Google Docs, Google Slides and more, and NotebookLM will summarize them and make interesting connections between topics, all powered by the latest version of Gemini’s multimodal understanding capabilities.</p>
             </div>
+            <img src={FirstVideo} alt="" className='rounded-3xl' />
             {/* <video controls width="100%" autoPlay muted loop>
               <source src={Aboutvideo} type="video/mp4" />
               Your browser does not support the video tag.
