@@ -5,12 +5,18 @@ import firstImage from './assets/privacy.png';
 // import secondImage from '/assets/video_placeholder_1.jpg';
 import { FaReact, FaSass } from 'react-icons/fa';
 
-
+// Feather
 import { FiAlertOctagon } from "react-icons/fi";
 import { FiUser } from "react-icons/fi";
 import { FaBoltLightning } from "react-icons/fa6";
 import { FaAsterisk } from "react-icons/fa";
 import { LuWaves } from "react-icons/lu";
+
+// Font awesome
+import { LuGraduationCap } from "react-icons/lu";
+import { TiTabsOutline } from "react-icons/ti";
+import { FaLightbulb } from "react-icons/fa";
+
 
 const App = () => {
   const data = [
@@ -151,19 +157,21 @@ return(
         <h3 className='text-center text-3xl'>How people are using NotebookLM</h3>
         <div className='flex flex-col gap-4 p-6'>
           <div className='flex flex-col gap-6'>
-            <img src="#" alt="icons" />
+            <LuGraduationCap />
             <h4 className='text-lg'>Power study</h4>
             <p className='text-sm text-gray-600'>Upload lecture recordings, textbook chapters, and research papers. Ask NotebookLM to explain complex concepts in simple terms, provide real-world examples, and reinforce your understanding.</p>
             <h4 className='text-sm text-gray-600 italic'>Learn faster and deeper.</h4>
           </div>
           <div className='flex flex-col gap-6'>
             <img src="#" alt="icons" />
+            <TiTabsOutline />
             <h4 className='text-lg'>Organize your thinking</h4>
             <p className='text-sm text-gray-600'>Upload your source material and let NotebookLM create a polished presentation outline, complete with key talking points and supporting evidence.</p>
             <h4 className='text-sm text-gray-600 italic'>Present with confidence.</h4>
           </div>
           <div className='flex flex-col gap-6'>
             <img src="#" alt="icons" />
+            <FaLightbulb />
             <h4 className='text-lg'>Spark new ideas</h4>
             <p className='text-sm text-gray-600'>Upload brainstorming notes, market research, and competitor research. Ask NotebookLM to identify trends, generate new product ideas, and uncover hidden opportunities.</p>
             <h4 className='text-sm text-gray-600 italic'>Unlock your creative potential.</h4>
