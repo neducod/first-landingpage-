@@ -96,11 +96,9 @@ const App = () => {
 return(
 
     <div>
-      <nav className='flex justify-center items-centter gap-28 p-8'>
+      <nav className='flex justify-center items-centter gap-28 p-8 mb-8'>
         <div>
           <img src={Navimage} alt="nav-bar image" className='w-40' />
-
-
         </div>
         <div>
         <GiHamburgerMenu />
@@ -108,10 +106,10 @@ return(
       </nav>
       <div className='flex justify-center flex-col p-4 items-center'>
         <h1 className='text-5xl text-center'>Understand <span className='text-5xl font-manrope font-black leading-snug text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-pink-600 to-purple-600'>Anything</span> </h1>
-        <div className='flex justify-center items-center text-center w-full p-4'>
+        <div className='flex justify-center items-center text-center w-full p-4 mb-8 mt-4'>
           <p className='text-gray-500 font-light'>Your research and thinking partner, grounded in the information you trust, built with the latest Gemini models.</p>
         </div>
-        <div className='flex flex-col gap-4 justify-center items-center'>
+        <div className='flex flex-col gap-4 justify-center items-center mb-14'>
           <button className='p-4 pr-8 pl-8 rounded-lg bg-black text-white'>Try NotebookLM</button>
           <a href="#" className='text-blue-700 underline'>Get the app</a>
         </div>
