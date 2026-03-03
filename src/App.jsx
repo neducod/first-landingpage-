@@ -8,6 +8,9 @@ import { FaReact, FaSass } from 'react-icons/fa';
 
 import { FiAlertOctagon } from "react-icons/fi";
 import { FiUser } from "react-icons/fi";
+import { FaBoltLightning } from "react-icons/fa6";
+import { FaAsterisk } from "react-icons/fa";
+import { LuWaves } from "react-icons/lu";
 
 const App = () => {
   const data = [
@@ -118,6 +121,7 @@ return(
           <div className='flex flex-col gap-2'>
             <div className='flex flex-col gap-2'>
               <img src="#" alt="icon" />
+              <FaBoltLightning />
               <h3 className='text-lg'>Instant insights</h3>
               <p className='text-sm text-gray-700'>With all of your sources in place, NotebookLM gets to work and becomes a personalized AI expert in the information that matters most to you.</p>
             </div>
@@ -127,6 +131,7 @@ return(
           <div className='flex flex-col gap-2'>
             <div className='flex flex-col gap-2'>
               <img src="#" alt="icon" />
+              <FaAsterisk />
               <h3 className='text-lg'>See the source, not just the answer</h3>
               <p className='text-sm text-gray-700'>Gain confidence in every response because NotebookLM provides clear citations for its work, showing you the exact quotes from your sources.</p>
             </div>
@@ -136,6 +141,7 @@ return(
           <div className='flex flex-col gap-2'>
             <div className='flex flex-col gap-2'>
               <img src="#" alt="icon" />
+              <LuWaves />
               <h3 className='text-lg'>Listen and learn on the go</h3>
               <p className='text-sm text-gray-700'>Our new Audio Overview feature can turn your sources into engaging “Deep Dive” discussions with one click</p>
             </div>
