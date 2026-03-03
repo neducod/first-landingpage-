@@ -3,7 +3,9 @@ import React, { useState, useRef } from 'react';
 import firstImage from './assets/privacy.png';
 import { FaReact, FaSass } from 'react-icons/fa';
 
-import FirstVideo from './assets/video_placeholder_1.jpg'  
+import FirstVideo from './assets/video_placeholder_1.jpg' 
+import Soundwave from './assets/video_placeholder_4.jpg' 
+import SourceImage from './assets/video_placeholder_3.jpg'
 import InstantImage from './assets/video_placeholder_2_replacement.png'
 
 import Navimage from './assets/notebook-logo.svg'
@@ -139,25 +141,25 @@ return(
               <h3 className='text-lg'>Instant insights</h3>
               <p className='text-sm text-gray-700'>With all of your sources in place, NotebookLM gets to work and becomes a personalized AI expert in the information that matters most to you.</p>
             </div>
-            <img src={InstantImage} alt="" className='rounded-2xl' />
+            <img src={InstantImage} alt="" className='rounded-3xl' />
           </div>
 
-          <div className='flex flex-col gap-2'>
-            <div className='flex flex-col gap-2'>
+          <div className='flex flex-col gap-8'>
+            <div className='flex flex-col gap-8'>
               <FaAsterisk />
               <h3 className='text-lg'>See the source, not just the answer</h3>
               <p className='text-sm text-gray-700'>Gain confidence in every response because NotebookLM provides clear citations for its work, showing you the exact quotes from your sources.</p>
             </div>
-            <img src="#" alt="" />
+            <img src={Soundwave} alt="" className='rounded-3xl'/>
           </div>
 
-          <div className='flex flex-col gap-2'>
-            <div className='flex flex-col gap-2'>
+          <div className='flex flex-col gap-8'>
+            <div className='flex flex-col gap-8'>
               <LuWaves />
               <h3 className='text-lg'>Listen and learn on the go</h3>
               <p className='text-sm text-gray-700'>Our new Audio Overview feature can turn your sources into engaging “Deep Dive” discussions with one click</p>
             </div>
-            <img src="#" alt="" />
+            <img src={SourceImage} alt=""  className='rounded-3xl'/>
           </div>
 
 
