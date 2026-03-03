@@ -163,14 +163,12 @@ return(
             <h4 className='text-sm text-gray-600 italic'>Learn faster and deeper.</h4>
           </div>
           <div className='flex flex-col gap-6'>
-            <img src="#" alt="icons" />
             <TiTabsOutline />
             <h4 className='text-lg'>Organize your thinking</h4>
             <p className='text-sm text-gray-600'>Upload your source material and let NotebookLM create a polished presentation outline, complete with key talking points and supporting evidence.</p>
             <h4 className='text-sm text-gray-600 italic'>Present with confidence.</h4>
           </div>
           <div className='flex flex-col gap-6'>
-            <img src="#" alt="icons" />
             <FaLightbulb />
             <h4 className='text-lg'>Spark new ideas</h4>
             <p className='text-sm text-gray-600'>Upload brainstorming notes, market research, and competitor research. Ask NotebookLM to identify trends, generate new product ideas, and uncover hidden opportunities.</p>
