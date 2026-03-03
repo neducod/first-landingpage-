@@ -5,6 +5,8 @@ import firstImage from './assets/privacy.png';
 // import secondImage from '/assets/video_placeholder_1.jpg';
 import { FaReact, FaSass } from 'react-icons/fa';
 
+import InstantImage from './assets/video_placeholder_2_replacement.png'
+
 import Navimage from './assets/notebook-logo.svg'
 // Feather
 import { FiAlertOctagon } from "react-icons/fi";
@@ -131,13 +133,13 @@ return(
             {/* <img src={secondImage} alt="landingpage-image" /> */}
           </div>
 
-          <div className='flex flex-col gap-2'>
-            <div className='flex flex-col gap-2'>
+          <div className='flex flex-col gap-8'>
+            <div className='flex flex-col gap-4'>
               <FaBoltLightning />
               <h3 className='text-lg'>Instant insights</h3>
               <p className='text-sm text-gray-700'>With all of your sources in place, NotebookLM gets to work and becomes a personalized AI expert in the information that matters most to you.</p>
             </div>
-            <img src="#" alt="" />
+            <img src={InstantImage} alt="" className='rounded-2xl' />
           </div>
 
           <div className='flex flex-col gap-2'>
