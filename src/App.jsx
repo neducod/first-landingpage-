@@ -229,6 +229,7 @@ return(
         </div> */}
         {/* <div class="w-96 h-48 rounded-md bg-gradient-to-tr from-indigo-600  to-purple-500 p-0.5"></div> */}
       </div>
+      <div className='p-18     bg-[radial-gradient(ellipse_at_20%_150%,_rgba(196,202,248,.4)_0,rgba(113,130,255,.2)_30%,rgba(113,130,255,0)_60%),radial-gradient(ellipse_at_70%_130%,_rgba(60,249,93,.4)_0,rgba(60,255,82,.2)_30%,rgba(60,255,82,0)_60%)]'></div>
     
 
       <footer className='flex p-4'>
