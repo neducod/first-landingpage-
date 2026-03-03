@@ -207,7 +207,7 @@ return(
       <div className='flex flex-col justify-center items-center p-6 bg-gray-100'>
         <h3 className='text-3xl text-center p-4'>We value your privacy and never use your organization's data to train NotebookLM</h3>
         <p className='text-center text-gray-600 font-light'>As an organization or school, your data will stay private to you. As an individual, your data is not used for training unless you share feedback, see more details <a href="#" className='text-blue-700 underline'>here.</a> </p>
-        <img src={firstImage} alt="" />
+        <img src={firstImage} alt="" className='sm:w-1/3' />
       </div>
 
       <div className='p-6 flex flex-col justify-center'>
