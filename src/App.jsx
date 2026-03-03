@@ -5,6 +5,7 @@ import firstImage from './assets/privacy.png';
 // import secondImage from '/assets/video_placeholder_1.jpg';
 import { FaReact, FaSass } from 'react-icons/fa';
 
+import Navimage from './assets/notebook-logo.svg'
 // Feather
 import { FiAlertOctagon } from "react-icons/fi";
 import { FiUser } from "react-icons/fi";
@@ -16,7 +17,7 @@ import { LuWaves } from "react-icons/lu";
 import { LuGraduationCap } from "react-icons/lu";
 import { TiTabsOutline } from "react-icons/ti";
 import { FaLightbulb } from "react-icons/fa";
-
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const App = () => {
   const data = [
@@ -95,6 +96,16 @@ const App = () => {
 return(
 
     <div>
+      <nav className='flex justify-center items-centter gap-6 p-8'>
+        <div>
+          <img src={Navimage} alt="" />
+
+
+        </div>
+        <div>
+        <GiHamburgerMenu />
+        </div>
+      </nav>
       <div className='flex justify-center flex-col p-4 items-center'>
         <h1 className='text-5xl text-center'>Understand <span className='text-5xl font-manrope font-black leading-snug text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-pink-600 to-purple-600'>Anything</span> </h1>
         <div className='flex justify-center items-center text-center w-full p-4'>
