@@ -4,6 +4,6 @@ Color check and font styles
 Responsiveness
 Slidehshow
 Gradient div
-Gradient text
+Gradient text - Checked
 Accordion text
 Hamburger + resposiveness
