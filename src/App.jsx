@@ -96,9 +96,9 @@ const App = () => {
 return(
 
     <div>
-      <nav className='flex justify-center items-centter gap-6 p-8'>
+      <nav className='flex justify-center items-centter gap-28 p-8'>
         <div>
-          <img src={Navimage} alt="" />
+          <img src={Navimage} alt="nav-bar image" className='w-40' />
 
 
         </div>
