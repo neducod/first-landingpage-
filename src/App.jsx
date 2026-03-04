@@ -76,7 +76,7 @@ const App = () => {
       <div className="border-b">
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="text-blue-700 cursor-pointer p-6 w-full text-left text-base"
+          className="text-blue-700 cursor-pointer p-6 sm:p-8 w-full text-left text-base sm:text-2xl sm:font-light"
         >
           {question}
         </button>
@@ -90,7 +90,7 @@ const App = () => {
               : "0px",
           }}
         >
-          <p className="pb-4 text-gray-600 text-xs">{answer}</p>
+          <p className="pb-4 text-gray-600 text-xs sm:text-base">{answer}</p>
         </div>
       </div>
     );
