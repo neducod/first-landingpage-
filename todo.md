@@ -7,6 +7,7 @@ Gradient div - checked
 Gradient text - Checked
 Accordion text
 Hamburger + resposiveness
+Accordion javascript feature
 
 
 Slideshow content:

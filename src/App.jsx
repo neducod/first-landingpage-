@@ -76,7 +76,7 @@ const App = () => {
       <div className="border-b">
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="text-blue-700 cursor-pointer p-6 sm:p-8 w-full text-left text-base sm:text-2xl sm:font-light"
+          className="text-blue-700 cursor-pointer p-6 sm:p-8 w-full text-left text-base sm:text-2xl sm:font-light  hover:bg-gray-200 transition duration-200 ease-in-out"
         >
           {question}
         </button>
@@ -90,7 +90,7 @@ const App = () => {
               : "0px",
           }}
         >
-          <p className="pb-4 text-gray-600 text-xs sm:text-base">{answer}</p>
+          <p className="pb-4 sm:pt-6 text-gray-600 text-xs sm:text-base">{answer}</p>
         </div>
       </div>
     );
@@ -206,7 +206,7 @@ return(
 
       <div className='flex flex-col justify-center items-center p-6 bg-gray-100'>
         <h3 className='text-3xl sm:text-5xl sm:font-light sm:w-3/4 text-center p-4 sm:p-8'>We value your privacy and never use your organization's data to train NotebookLM</h3>
-        <p className='text-center text-gray-600 font-light sm:w-1/2 sm:text-xl sm:text-gray-800 sm:font-normal'>As an organization or school, your data will stay private to you. As an individual, your data is not used for training unless you share feedback, see more details <a href="#" className='text-blue-700 underline'>here.</a> </p>
+        <p className='text-center text-gray-600 font-light sm:w-1/2 sm:text-xl sm:text-gray-800 sm:font-normal sm:pb-10'>As an organization or school, your data will stay private to you. As an individual, your data is not used for training unless you share feedback, see more details <a href="#" className='text-blue-700 underline'>here.</a> </p>
         <img src={firstImage} alt="" className='sm:w-1/3' />
       </div>
 
