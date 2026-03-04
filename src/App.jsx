@@ -122,46 +122,40 @@ return(
       <div className='flex flex-col p-4 justify-center'>
         <h2 className='text-center text-3xl sm:text-4xl sm:font-light sm:p-6 sm:mb-12'>Your AI-Powered Research Partner</h2>
         <div className='flex flex-col gap-8 p-4'>
-          <div className='flex flex-col sm:flex-row gap-8 sm:gap-2 sm:justify-center sm:items-center'>
+          <div className='flex flex-col gap-8'>
             <div className='flex flex-col gap-8'>
               <FiUser />
               <h3 className='text-lg'>Upload your sources</h3>
-              <p className='text-sm text-gray-700 sm:w-1/2'>Upload PDFs, websites, YouTube videos, audio files, Google Docs, Google Slides and more, and NotebookLM will summarize them and make interesting connections between topics, all powered by the latest version of Gemini’s multimodal understanding capabilities.</p>
+              <p className='text-sm text-gray-700'>Upload PDFs, websites, YouTube videos, audio files, Google Docs, Google Slides and more, and NotebookLM will summarize them and make interesting connections between topics, all powered by the latest version of Gemini’s multimodal understanding capabilities.</p>
             </div>
-            <img src={FirstVideo} alt="" className='rounded-3xl sm:w-80' />
-            {/* w-16 md:w-32 lg:w-48 */}
-            {/* <video controls width="100%" autoPlay muted loop>
-              <source src={Aboutvideo} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video> */}
-            {/* <img src={secondImage} alt="landingpage-image" /> */}
+            <img src={FirstVideo} alt="" className='rounded-3xl' />
           </div>
 
-          <div className='flex flex-col sm:flex-row gap-8'>
+          <div className='flex flex-col gap-8'>
             <div className='flex flex-col gap-4'>
               <FaBoltLightning />
               <h3 className='text-lg'>Instant insights</h3>
               <p className='text-sm text-gray-700'>With all of your sources in place, NotebookLM gets to work and becomes a personalized AI expert in the information that matters most to you.</p>
             </div>
-            <img src={InstantImage} alt="" className='rounded-3xl sm:w-80' />
+            <img src={InstantImage} alt="" className='rounded-3xl' />
           </div>
 
-          <div className='flex flex-col sm:flex-row gap-8'>
+          <div className='flex flex-col gap-8'>
             <div className='flex flex-col gap-8'>
               <FaAsterisk />
               <h3 className='text-lg'>See the source, not just the answer</h3>
-              <p className='text-sm text-gray-700 sm:w-1/2'>Gain confidence in every response because NotebookLM provides clear citations for its work, showing you the exact quotes from your sources.</p>
+              <p className='text-sm text-gray-700'>Gain confidence in every response because NotebookLM provides clear citations for its work, showing you the exact quotes from your sources.</p>
             </div>
-            <img src={Soundwave} alt="" className='rounded-3xl sm:w-80'/>
+            <img src={Soundwave} alt="" className='rounded-3xl'/>
           </div>
 
-          <div className='flex flex-col sm:flex-row gap-8'>
-            <div className='flex flex-col m:w-full gap-8'>
+          <div className='flex flex-col  gap-8'>
+            <div className='flex flex-col  gap-8'>
               <LuWaves />
               <h3 className='text-lg'>Listen and learn on the go</h3>
-              <p className='text-sm text-gray-700 sm:w-1/2'>Our new Audio Overview feature can turn your sources into engaging “Deep Dive” discussions with one click</p>
+              <p className='text-sm text-gray-700 '>Our new Audio Overview feature can turn your sources into engaging “Deep Dive” discussions with one click</p>
             </div>
-            <img src={SourceImage} alt=""  className='rounded-3xl sm:w-80'/>
+            <img src={SourceImage} alt=""  className='rounded-3xl '/>
           </div>
 
 
