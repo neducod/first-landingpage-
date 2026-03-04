@@ -233,9 +233,9 @@ return(
       <div className='p-18 bg-[radial-gradient(ellipse_at_20%_150%,_rgba(196,202,248,.4)_0,rgba(113,130,255,.2)_30%,rgba(113,130,255,0)_60%),radial-gradient(ellipse_at_70%_130%,_rgba(60,249,93,.4)_0,rgba(60,255,82,.2)_30%,rgba(60,255,82,0)_60%)]'></div>
     
 
-      <footer className='flex p-4'>
+      <footer className='flex p-4 sm:pl-26 sm:pb-16'>
         <div className='flex flex-row gap-8 py-8 pb-8 justify-center items-center'>
-          <h6 className='text-lg font-normal'>Google</h6>
+          <h6 className='text-lg sm:text-xl font-normal'>Google</h6>
           <a href="#" className='text-xs'>Privacy & Terms</a>
         </div>
       </footer>
