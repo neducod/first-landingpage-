@@ -210,10 +210,10 @@ return(
         <img src={firstImage} alt="" className='sm:w-1/3' />
       </div>
 
-      <div className='p-6 flex flex-col justify-center'>
+      <div className='p-6 flex flex-col justify-center sm:p-30'>
         <div className='flex gap-4 flex-col'>
-          <h3 className='text-3xl font-light text-left'>Want to learn more?</h3>
-          <p className='text-left text-sm text-gray-500'>Here are some answers to common questions.</p>
+          <h3 className='text-3xl sm:text-5xl font-light text-left'>Want to learn more?</h3>
+          <p className='text-left text-sm sm:text-xl sm:pt-4 sm:pl-4 sm:pb-4 text-gray-500 sm:text-gray-700 sm:font-light'>Here are some answers to common questions.</p>
         </div>
         <div className="flex flex-col">
         {data.map((item, index) => (
@@ -230,7 +230,7 @@ return(
         </div> */}
         {/* <div class="w-96 h-48 rounded-md bg-gradient-to-tr from-indigo-600  to-purple-500 p-0.5"></div> */}
       </div>
-      <div className='p-18     bg-[radial-gradient(ellipse_at_20%_150%,_rgba(196,202,248,.4)_0,rgba(113,130,255,.2)_30%,rgba(113,130,255,0)_60%),radial-gradient(ellipse_at_70%_130%,_rgba(60,249,93,.4)_0,rgba(60,255,82,.2)_30%,rgba(60,255,82,0)_60%)]'></div>
+      <div className='p-18 bg-[radial-gradient(ellipse_at_20%_150%,_rgba(196,202,248,.4)_0,rgba(113,130,255,.2)_30%,rgba(113,130,255,0)_60%),radial-gradient(ellipse_at_70%_130%,_rgba(60,249,93,.4)_0,rgba(60,255,82,.2)_30%,rgba(60,255,82,0)_60%)]'></div>
     
 
       <footer className='flex p-4'>
