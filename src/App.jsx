@@ -64,7 +64,7 @@ const App = () => {
     },
     {
       question: "If I find a bug or have a feature idea, how can I submit my feedback?",
-      answer: "Please share your questions and support requests on Discord or follow instructions on NotebookLM help center to report a problem.",
+      answer: "Please share your questions and support requests on Discord or follow instructions on NotebookLM help center to report a problem..",
     },
   ];
 
