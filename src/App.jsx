@@ -111,7 +111,7 @@ return(
         <h1 className='text-5xl sm:text-8xl text-center'>Understand <span className='text-5xl sm:text-8xl font-manrope font-black sm:font-medium leading-snug bg-clip-text text-transparent bg-gradient-to-r from-[#7182ff] to-[#3cff52]   animate-[custom-pulse_3s_ease-in-out_infinite_alternate]  '>Anything</span> </h1>
         {/* bg-clip-text bg-gradient-to-r from-indigo-600 via-pink-600 to-purple-600 */}
         <div className='flex justify-center items-center text-center w-full p-4 mb-8 mt-4'>
-          <p className='text-gray-600 font-light w-full sm:w-1/2 sm:text-2xl'>Your research and thinking partner, grounded in the information you trust, built with the latest Gemini models.</p>
+          <p className=' text-[#726f6f] font-light w-full sm:w-1/2 sm:text-2xl sm:text-center'>Your research and thinking partner, grounded in the information you trust, built with the latest Gemini models.</p>
         </div>
         <div className='flex flex-col gap-4 justify-center items-center mb-14'>
           <button className='p-4 pr-8 pl-8 rounded-lg bg-black text-white sm:mb-6'>Try NotebookLM</button>
