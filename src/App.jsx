@@ -104,26 +104,29 @@ const App = () => {
 return(
 
     <div>
-      <nav className='flex justify-center items-centter gap-28 p-8 mb-8'>
+      <nav className='flex justify-center items-center  gap-8 sm:gap-90 p-10 mb-10 sm:fixed sm:z-auto bg-white sm:w-full'>
         <div>
           <img src={Navimage} alt="nav-bar image" className='w-40' />
         </div>
-        <div>
+        <div className='hidden sm:block gap-20'>
+          <div className='flex gap-70'>
           <ul className='flex gap-6'>
-            <li className='underline'>Overview</li>
-            <li>Plans</li>
-            <div className='flex gap-4'>
+            <li className='underline relative'>Overview</li>
+            <li className='text-[#00] cursor-pointer'>Plans</li>
+            <div className='flex gap-4 cursor-pointer'>
               <FaXTwitter />
               <FaRedditAlien />
               <FaDiscord />
             </div>
+            <button className='cursor-pointer'>Get the app</button>
           </ul>
+          </div>
         </div>
         <div className='sm:hidden'>
         <GiHamburgerMenu />
         </div>
       </nav>
-      <div className='flex justify-center flex-col p-4 sm:p-6 items-center'>
+      <div className='flex justify-center flex-col p-4 sm:p-6 sm:pt-40 items-center'>
         <h1 className='text-5xl sm:text-8xl text-center'>Understand <span className='text-5xl sm:text-8xl font-manrope font-black sm:font-medium leading-snug bg-clip-text text-transparent bg-gradient-to-r from-[#7182ff] to-[#3cff52]   animate-[custom-pulse_3s_ease-in-out_infinite_alternate]  '>Anything</span> </h1>
         {/* bg-clip-text bg-gradient-to-r from-indigo-600 via-pink-600 to-purple-600 */}
         <div className='flex justify-center items-center text-center w-full p-4 mb-8 mt-4'>
