@@ -22,6 +22,11 @@ import { TiTabsOutline } from "react-icons/ti";
 import { FaLightbulb } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 
+
+import { FaXTwitter } from "react-icons/fa6";
+import { FaRedditAlien } from "react-icons/fa";
+import { FaDiscord } from "react-icons/fa";
+
 const App = () => {
   const data = [
     {
@@ -104,6 +109,17 @@ return(
           <img src={Navimage} alt="nav-bar image" className='w-40' />
         </div>
         <div>
+          <ul className='flex gap-6'>
+            <li className='underline'>Overview</li>
+            <li>Plans</li>
+            <div className='flex gap-4'>
+              <FaXTwitter />
+              <FaRedditAlien />
+              <FaDiscord />
+            </div>
+          </ul>
+        </div>
+        <div className='sm:hidden'>
         <GiHamburgerMenu />
         </div>
       </nav>
